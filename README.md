@@ -49,27 +49,28 @@ An online learning platform with **user** and **admin** interfaces built with ME
 | Zod      | Data Validation  |
 | JWT      | Authentication   |
 
-## Project Structure
 
+## 📁 Project Structure
+```bash
 Himanshu-s-Academy/
-├── client/ # Frontend
-│ ├── public/
-│ └── src/
-│ ├── common/ # Shared components
-│ ├── pages/ # Page components
-│ ├── utils/ # Auth, API config
-│ └── App.tsx # Main router
+├── client/               # Frontend
+│   ├── public/
+│   └── src/
+│       ├── common/       # Shared components
+│       ├── pages/        # Page components
+│       ├── utils/        # Auth, API config
+│       └── App.tsx       # Main router
 │
-├── server/ # Backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middlewares/
-│ └── app.js # Server entry
+├── server/               # Backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middlewares/
+│   └── app.js            # Server entry
 │
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## ⚙️ Getting Started
@@ -86,26 +87,33 @@ Himanshu-s-Academy/
 git clone https://github.com/hit-man-shu/Himanshu-s-Academy.git
 cd Himanshu-s-Academy
 ```
+
 ### Install Dependencies
+
 cd frontend
 npm install
 
 cd backend
 npm install
 
-### 🌐 Environment Variables 
+## 🌐 Environment Variables
 
-Backend-
+### Backend-
 
+```bash
 PORT=
 MONGODB_URI=your_mongodb_connection_string
 USER_JWT_SECRET=your_user_secret_key
 ADMIN_JWT_SECRET=your_admin_secret_key
+```
 
-FrontEnd- 
+### FrontEnd-
+```bash
 VITE_BACKEND_API_URL=
+```
 
-### 📡 API Overview
+## 📡 API Overview
+
 | Route                  | Method | Description           |
 | ---------------------- | ------ | --------------------- |
 | `/api/course`          | GET    | Fetch all courses     |
@@ -118,10 +126,13 @@ VITE_BACKEND_API_URL=
 | `/api/admin/edit`      | PUT    | Edit a course         |
 | `/api/admin/:id`       | DELETE | Delete a course       |
 
-### 📝 License
+## 📝 License
+
 This project is licensed under the MIT License.
 
-### 📌 First Commit
+## 📌 First Commit
+
+```bash
 git add .
 git commit -m "Initial project setup"
 git branch -M main
@@ -131,3 +142,4 @@ git push -u origin main
 ---
 
 Let me know if you'd like to include deployment instructions (e.g., for Vercel/Render) or database schema references too.
+```
