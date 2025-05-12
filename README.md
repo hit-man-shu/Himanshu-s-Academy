@@ -5,7 +5,7 @@
 
 An online learning platform with **user** and **admin** interfaces built with MERN stack.
 
-🔗 **Live Demo**: [Coming Soon]()  
+🔗 **Live Demo**: [Coming Soon](https://himanshu-academy.netlify.app/)  
 📂 **GitHub Repo**: [github.com/hit-man-shu/Himanshu-s-Academy](https://github.com/hit-man-shu/Himanshu-s-Academy)
 
 ![App Screenshot](image.png) <!-- Replace with actual screenshot -->
@@ -45,7 +45,7 @@ An online learning platform with **user** and **admin** interfaces built with ME
 | Node.js  | Runtime          |
 | Express  | Server Framework |
 | MongoDB  | Database         |
-| Mongoose | ODM              |
+| Mongoose | ORM              |
 | Zod      | Data Validation  |
 | JWT      | Authentication   |
 
