@@ -6,6 +6,7 @@
 An online learning platform with **user** and **admin** interfaces built with MERN stack.
 
 🔗 **Live Demo**: [https://himanshu-academy.netlify.app/](https://himanshu-academy.netlify.app/)
+
 📂 **GitHub Repo**: [github.com/hit-man-shu/Himanshu-s-Academy](https://github.com/hit-man-shu/Himanshu-s-Academy)
 
 ![App Screenshot](image.png) <!-- Replace with actual screenshot -->
@@ -49,8 +50,8 @@ An online learning platform with **user** and **admin** interfaces built with ME
 | Zod      | Data Validation  |
 | JWT      | Authentication   |
 
-
 ## 📁 Project Structure
+
 ```bash
 Himanshu-s-Academy/
 ├── client/               # Frontend
@@ -71,6 +72,7 @@ Himanshu-s-Academy/
 ├── .gitignore
 └── README.md
 ```
+
 ---
 
 ## ⚙️ Getting Started
@@ -108,6 +110,7 @@ ADMIN_JWT_SECRET=your_admin_secret_key
 ```
 
 ### FrontEnd-
+
 ```bash
 VITE_BACKEND_API_URL=
 ```
